@@ -5,18 +5,55 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Probleme">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Probleme\Problema 1">
+      <UniqueIdentifier>{f098c7e0-0e67-4c28-b805-f745c62fc6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Probleme\Problema 2">
+      <UniqueIdentifier>{7a86eadc-2183-4c72-8e72-43eb7880f385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Probleme\Problema 3">
+      <UniqueIdentifier>{9884e588-a23b-484a-a3c7-b8d9abad17b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Probleme\Problema 4">
+      <UniqueIdentifier>{7f3edf73-a849-499d-abe9-6367321d9e82}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="final-backtracking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="problema1.h">
+      <Filter>Probleme\Problema 1</Filter>
+    </ClInclude>
+    <ClInclude Include="problema2.h">
+      <Filter>Probleme\Problema 2</Filter>
+    </ClInclude>
+    <ClInclude Include="problema3.h">
+      <Filter>Probleme\Problema 3</Filter>
+    </ClInclude>
+    <ClInclude Include="problema4.h">
+      <Filter>Probleme\Problema 4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="problema1-out.txt">
+      <Filter>Probleme\Problema 1</Filter>
+    </Text>
+    <Text Include="problema2-out.txt">
+      <Filter>Probleme\Problema 2</Filter>
+    </Text>
+    <Text Include="problema3-out.txt">
+      <Filter>Probleme\Problema 3</Filter>
+    </Text>
   </ItemGroup>
 </Project>
