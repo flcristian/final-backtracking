@@ -139,6 +139,7 @@
     <Text Include="problema1-out.txt" />
     <Text Include="problema2-out.txt" />
     <Text Include="problema3-out.txt" />
+    <Text Include="problema4-out.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

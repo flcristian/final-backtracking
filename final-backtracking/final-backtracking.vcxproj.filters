@@ -55,5 +55,8 @@
     <Text Include="problema3-out.txt">
       <Filter>Probleme\Problema 3</Filter>
     </Text>
+    <Text Include="problema4-out.txt">
+      <Filter>Probleme\Problema 4</Filter>
+    </Text>
   </ItemGroup>
 </Project>
