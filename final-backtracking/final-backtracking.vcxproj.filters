@@ -16,14 +16,20 @@
     <Filter Include="Probleme\Problema 1">
       <UniqueIdentifier>{f098c7e0-0e67-4c28-b805-f745c62fc6cd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Probleme\Problema 2">
-      <UniqueIdentifier>{7a86eadc-2183-4c72-8e72-43eb7880f385}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Probleme\Problema 3">
-      <UniqueIdentifier>{9884e588-a23b-484a-a3c7-b8d9abad17b1}</UniqueIdentifier>
+    <Filter Include="Probleme\Problema 5">
+      <UniqueIdentifier>{7f3edf73-a849-499d-abe9-6367321d9e82}</UniqueIdentifier>
     </Filter>
     <Filter Include="Probleme\Problema 4">
-      <UniqueIdentifier>{7f3edf73-a849-499d-abe9-6367321d9e82}</UniqueIdentifier>
+      <UniqueIdentifier>{9884e588-a23b-484a-a3c7-b8d9abad17b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Probleme\Problema 3">
+      <UniqueIdentifier>{7a86eadc-2183-4c72-8e72-43eb7880f385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Probleme\Problema 8">
+      <UniqueIdentifier>{8bdee99d-2a38-4eb2-bf1e-e116911954b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Probleme\Problema 10">
+      <UniqueIdentifier>{2c0a39a2-bf1c-49fc-961a-42304796d1d0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -35,25 +41,37 @@
     <ClInclude Include="problema1.h">
       <Filter>Probleme\Problema 1</Filter>
     </ClInclude>
-    <ClInclude Include="problema2.h">
-      <Filter>Probleme\Problema 2</Filter>
-    </ClInclude>
     <ClInclude Include="problema3.h">
       <Filter>Probleme\Problema 3</Filter>
     </ClInclude>
     <ClInclude Include="problema4.h">
       <Filter>Probleme\Problema 4</Filter>
     </ClInclude>
+    <ClInclude Include="problema5.h">
+      <Filter>Probleme\Problema 5</Filter>
+    </ClInclude>
+    <ClInclude Include="problema8.h">
+      <Filter>Probleme\Problema 8</Filter>
+    </ClInclude>
+    <ClInclude Include="problema10.h">
+      <Filter>Probleme\Problema 10</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="problema1-out.txt">
       <Filter>Probleme\Problema 1</Filter>
     </Text>
-    <Text Include="problema2-out.txt">
-      <Filter>Probleme\Problema 2</Filter>
-    </Text>
     <Text Include="problema3-out.txt">
       <Filter>Probleme\Problema 3</Filter>
+    </Text>
+    <Text Include="problema4-out.txt">
+      <Filter>Probleme\Problema 4</Filter>
+    </Text>
+    <Text Include="problema5-out.txt">
+      <Filter>Probleme\Problema 5</Filter>
+    </Text>
+    <Text Include="problema8-out.txt">
+      <Filter>Probleme\Problema 8</Filter>
     </Text>
   </ItemGroup>
 </Project>

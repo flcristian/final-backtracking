@@ -4,137 +4,80 @@
 
 using namespace std;
 
-// Sa se genereze toate tablourile patratice
-// binare de ordin n (n <= 10), care au proprietatea
-// ca atat fiecare linie, cat si fiecare coloana
-// contin exact un element egal cu 1. Fiecare tablou
-// va fi afisat pe n linii in fisierul text matrice.out
-// numerele in cadrul liniei fiind separate prin cate un
-// spatiu. In fisier, intre tablourile rezultate va exista
-// o linie goala.
+// Se considera sirul cifrelor de la 0 la 9.
+// Sa se genereze toate numerele de n cifre (n <= 9)
+// care nu contin trei cifre pare sau trei cifre impare
+// alaturate. Fiecare numar rezultat va fi scris pe cate
+// o linie in fisierul cifre.out.
 
-int n, c, c2 = 0;
+int x[10] = { 0,1,2,3,4,5,6,7,8,9 };
+int n, c = 0;
 int s[100];
+int solutii[1000][1000];
 
-struct Multime {
-	int indice;
-	int y[100];
-
-	Multime() {
-	}
-
-	Multime(int indice, int x[100]) {
-		this->indice = indice;
-		for (int i = 0; i < n; i++) {
-			y[i] = x[i];
-		}
-	}
-};
-
-Multime x[100];
-Multime s2[1000];
-Multime solutiiOutput[1000][1000];
-
-void atribuire() {
-	Multime a(c, s);
-	x[c] = a;
-}
-
-bool valid1(int k) {
-	int c = 0;
-	for (int i = 0; i <= k; i++) {
-		if (s[i] == 0) {
-			c++;
-		}
-		if (s[k] == s[i] && s[k] != 0 && i != k) {
-			return 0;
-		}
-	}
-	if (c == n) {
-		return 0;
-	}
-	return 1;
-}
-
-bool solutie1(int k) {
-	if (k == n - 1) {
-		return 1;
-	}
-	return 0;
-}
-
-void back1(int k) {
-	for (int i = 0; i < 2; i++) {
-		s[k] = i;
-		if (valid1(k)) {
-			if (solutie1(k)) {
-				atribuire();
-				c++;
-			}
-			else {
-				back1(k + 1);
-			}
-		}
-	}
-}
-
-void tiparSiAtribuire() {
+void tiparSiAdaugare() {
 	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < n; j++) {
-			solutiiOutput[c2][i].y[j] = s2[i].y[j];
-			cout << s2[i].y[j] << " ";
-		}
-		cout << endl;
+		solutii[c][i] = s[i];
+		cout << s[i];
 	}
 	cout << endl;
 }
 
-bool valid2(int k) {
-	for (int i = 0; i < k; i++) {
-		if (s2[i].indice == s2[k].indice) {
+bool par(int x) {
+	if (x % 2 == 0) {
+		return 1;
+	}
+	return 0;
+}
+
+bool valid(int k) {
+	int count = 0;
+	for (int i = 0; i <= k; i++) {
+		if (par(s[i]) == par(s[i + 1])) {
+			count++;
+		}
+		else {
+			count = 0;
+		}
+		if (count == 2) {
 			return 0;
 		}
 	}
 	return 1;
 }
 
-bool solutie2(int k) {
+bool solutie(int k) {
 	if (k == n - 1) {
 		return 1;
 	}
 	return 0;
 }
 
-void back2(int k) {
+void back(int k) {
 	for (int i = 0; i < n; i++) {
-		s2[k] = x[i];
-		if (valid2(k)) {
-			if (solutie2(k)) {
-				tiparSiAtribuire();
-				c2++;
+		if (k == 0 && i == 0) {
+			i++;
+		}
+		s[k] = x[i];
+		if (valid(k)) {
+			if (solutie(k)) {
+				tiparSiAdaugare();
+				c++;
 			}
 			else {
-				back2(k + 1);
+				back(k + 1);
 			}
 		}
 	}
 }
 
 void output() {
-	ofstream f("problema3-out.txt");
-	for (int i = 0; i < c2; i++) {
+	ofstream f("problema2-out.txt");
+	for (int i = 0; i < c; i++) {
 		for (int j = 0; j < n; j++) {
-			for (int k = 0; k < n; k++) {
-				f << solutiiOutput[i][j].y[k];
-				if (k != n - 1) {
-					f << " ";
-				}
-			}
-			if (i != c2 - 1 || j != n - 1) {
-				f << endl;
-			}
+			f << solutii[i][j];
 		}
-		if (i != c2 - 1) {
+		if (i != c - 1) {
 			f << endl;
 		}
 	}
@@ -144,9 +87,7 @@ void output() {
 void rezolvare() {
 	cout << "Introduceti n : ";
 	cin >> n;
-
-	c = 0;
-	back1(0);
-	back2(0);
+	
+	back(0);
 	output();
 }

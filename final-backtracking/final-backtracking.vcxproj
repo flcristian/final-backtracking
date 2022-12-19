@@ -131,14 +131,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="problema1.h" />
-    <ClInclude Include="problema2.h" />
+    <ClInclude Include="problema10.h" />
     <ClInclude Include="problema3.h" />
     <ClInclude Include="problema4.h" />
+    <ClInclude Include="problema5.h" />
+    <ClInclude Include="problema8.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="problema1-out.txt" />
-    <Text Include="problema2-out.txt" />
     <Text Include="problema3-out.txt" />
+    <Text Include="problema4-out.txt" />
+    <Text Include="problema5-out.txt" />
+    <Text Include="problema8-out.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
