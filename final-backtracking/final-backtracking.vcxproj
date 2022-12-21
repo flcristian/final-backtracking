@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="problema1.h" />
     <ClInclude Include="problema10.h" />
+    <ClInclude Include="problema16.h" />
     <ClInclude Include="problema3.h" />
     <ClInclude Include="problema4.h" />
     <ClInclude Include="problema5.h" />
