@@ -1,4 +1,4 @@
-#include "problema17.h"
+#include "problema-sesiune.h"
 
 int main() {
 	rezolvare();

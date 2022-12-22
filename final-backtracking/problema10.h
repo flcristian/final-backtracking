@@ -1,106 +1,42 @@
 #include <iostream>
-#include <fstream>
-#include <string>
 
 using namespace std;
+int x[100]{};
+int monede[100] = { 0,10,2,4,8 };
+int n=4, s = 0, suma=100, nr;
 
-// Consideram n <= 10 tipuri de monede. Din fiecare
-// tip avem la dispozzitie un numar nelimitat de monede.
-// Generati toate modalitatiile de plata a unei nume
-// S <= 30000, in conditiile date. In fisierul monede.out
-// vor fi afisate variantele, in formatul din exemplu.
+void tipar(int k) {
 
-struct Solutie {
-	int x[100];
-	int dim;
-};
+	for (int i = 1; i <= k; i++) {
 
-int n, S, c = 0;
-int x[100];
-Solutie s;
-Solutie solutii[100];
-
-int numarMaximMonede() {
-	return S / x[0];
-}
-
-void tiparSiAdaugare() {
-	int trecut = 0;
-	for (int i = 0; i < s.dim; i++) {
-		cout << s.x[i] << " ";
+		if (x[i] > 0) {
+			cout << x[i] << "*" << monede[i] << " ";
+		}
 	}
-	solutii[c] = s;
 	cout << endl;
 }
 
-void citire() {
-	cout << "Introduceti n : ";
-	cin >> n;
-	for (int i = 0; i < n; i++) {
-		cout << "Introduceti moneda " << i + 1 << " : ";
-		cin >> x[i];
-	}
-	cout << "Introduceti S : ";
-	cin >> S;
-}
+void back(int k) {
 
-void bubbleSort() {
-	bool flag = true;
-	do {
-		flag = true;
-		for (int i = 0; i < n - 1; i++) {
-			if (x[i] > x[i + 1]) {
-				int r = x[i];
-				x[i] = x[i + 1];
-				x[i + 1] = r;
-				flag = false;
-			}
-		}
-	} while (flag == false);
-}
+	if (s == suma) {
 
-int sumaSolutie() {
-	int suma = 0;
-	for (int i = 0; i < s.dim; i++) {
-		suma += s.x[i];
-	}
-	return suma;
-}
-
-int solutie(int k) {
-	int suma = sumaSolutie();
-	if (suma == S) {
-		return 1;
-	}
-	else if (suma > S) {
-		return -1;
+		tipar(k-1);
 	}
 	else {
-		return 0;
+
+		x[k] = -1;
+		while (x[k] * monede[k] + s < suma && k < n+1) {
+			x[k] = x[k] + 1;
+			s = s + x[k] * monede[k];
+			back(k + 1);
+			s = s - x[k] *monede[k];
+		}
 	}
 }
 
-//void back(int k) {
-//	bool sumaMaiMica = true;
-//	for (int i = 0; i < n && sumaMaiMica; i++) {
-//		s.x[k] = x[i];
-//		s.dim = k + 1;
-//		int sol = solutie(k);
-//		if (sol == 1) {
-//			tiparSiAdaugare();
-//			c++;
-//		}
-//		else if (sol == -1) {
-//			sumaMaiMica = false;
-//		}
-//		else {
-//			back(k + 1);
-//		}
-//	}
-//}
 
-void rezolvare() {
-	citire();
-	bubbleSort();
-	cout << numarMaximMonede();
+void sol() {
+
+	back(1);
+	
 }

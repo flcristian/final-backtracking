@@ -130,6 +130,7 @@
     <ClCompile Include="final-backtracking.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="problema-sesiune.h" />
     <ClInclude Include="problema1.h" />
     <ClInclude Include="problema10.h" />
     <ClInclude Include="problema16.h" />
