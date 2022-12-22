@@ -34,6 +34,9 @@
     <Filter Include="Probleme\Problema 16">
       <UniqueIdentifier>{590184a7-9b78-49e6-8536-c6b7bce6f921}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Probleme\Problema 17">
+      <UniqueIdentifier>{dd8ca655-e63e-4a66-8a05-e320a132df8d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="final-backtracking.cpp">
@@ -61,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="problema16.h">
       <Filter>Probleme\Problema 16</Filter>
+    </ClInclude>
+    <ClInclude Include="problema17.h">
+      <Filter>Probleme\Problema 17</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
