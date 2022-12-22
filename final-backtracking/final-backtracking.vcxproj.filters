@@ -68,6 +68,9 @@
     <ClInclude Include="problema17.h">
       <Filter>Probleme\Problema 17</Filter>
     </ClInclude>
+    <ClInclude Include="problema-sesiune.h">
+      <Filter>Probleme</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="problema1-out.txt">
