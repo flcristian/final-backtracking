@@ -37,6 +37,12 @@
     <Filter Include="Probleme\Problema 17">
       <UniqueIdentifier>{dd8ca655-e63e-4a66-8a05-e320a132df8d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Probleme\Problema Sesiune">
+      <UniqueIdentifier>{61247603-373b-4814-98e2-e30b7caca297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Probleme\Problema Mouse">
+      <UniqueIdentifier>{7ea1cdb3-7e4b-4ee1-a173-f4fe1f8e3c42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="final-backtracking.cpp">
@@ -69,7 +75,13 @@
       <Filter>Probleme\Problema 17</Filter>
     </ClInclude>
     <ClInclude Include="problema-sesiune.h">
-      <Filter>Probleme</Filter>
+      <Filter>Probleme\Problema Sesiune</Filter>
+    </ClInclude>
+    <ClInclude Include="problema-mouse.h">
+      <Filter>Probleme\Problema Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="problema-mouse-metoda-2.h">
+      <Filter>Probleme\Problema Mouse</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +99,12 @@
     </Text>
     <Text Include="problema8-out.txt">
       <Filter>Probleme\Problema 8</Filter>
+    </Text>
+    <Text Include="mouse-in.txt">
+      <Filter>Probleme\Problema Mouse</Filter>
+    </Text>
+    <Text Include="mouse-out.txt">
+      <Filter>Probleme\Problema Mouse</Filter>
     </Text>
   </ItemGroup>
 </Project>

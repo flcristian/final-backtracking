@@ -130,6 +130,8 @@
     <ClCompile Include="final-backtracking.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="problema-mouse-metoda-2.h" />
+    <ClInclude Include="problema-mouse.h" />
     <ClInclude Include="problema-sesiune.h" />
     <ClInclude Include="problema1.h" />
     <ClInclude Include="problema10.h" />
@@ -141,6 +143,8 @@
     <ClInclude Include="problema8.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="mouse-in.txt" />
+    <Text Include="mouse-out.txt" />
     <Text Include="problema1-out.txt" />
     <Text Include="problema3-out.txt" />
     <Text Include="problema4-out.txt" />
