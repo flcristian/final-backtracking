@@ -43,6 +43,69 @@
     <Filter Include="Probleme\Problema Mouse">
       <UniqueIdentifier>{7ea1cdb3-7e4b-4ee1-a173-f4fe1f8e3c42}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tema 12-01-2023">
+      <UniqueIdentifier>{2e3bbfb9-d46b-48f2-b95f-59029a3a2479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 1">
+      <UniqueIdentifier>{0917941e-c807-4c1e-8e8f-2cb0612fd268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 2">
+      <UniqueIdentifier>{62c81350-41bb-4883-9158-12ef29bcc45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 3">
+      <UniqueIdentifier>{ec5cf5d8-3bf3-4285-a765-e24cf02bdf30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 4">
+      <UniqueIdentifier>{1513ad4c-3ae2-4acf-a8ee-3759c44d7987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 5">
+      <UniqueIdentifier>{6fcc7352-7323-4ba3-8874-ea49b41ae9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 6">
+      <UniqueIdentifier>{52aaf18e-a317-4e9f-bce5-8c1a355927d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 7">
+      <UniqueIdentifier>{73154eb7-43b9-401a-92c7-0c04415c42f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 8">
+      <UniqueIdentifier>{e95262a2-f8b9-47d7-86ed-8e22646c1d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 9">
+      <UniqueIdentifier>{32d9f73f-0f50-47bf-9fc7-126707c3ba9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 10">
+      <UniqueIdentifier>{70f30618-c367-4ba0-9f8b-4c59294568e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 11">
+      <UniqueIdentifier>{d8cd25ec-e53e-4f3f-8084-f741cbaa0291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 12">
+      <UniqueIdentifier>{1fc73058-80be-428f-94c5-379b0820aa8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 13">
+      <UniqueIdentifier>{2a4a870d-ad7c-4cc4-b4f1-1e99888e45a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 14">
+      <UniqueIdentifier>{6d7ef48f-b7f0-499a-a636-aa01cd4fd904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 15">
+      <UniqueIdentifier>{607523ec-c87b-4ed3-878c-6e8b613b1ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 16">
+      <UniqueIdentifier>{5a19c50a-fcad-4465-8aca-a395f788ea29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 17">
+      <UniqueIdentifier>{2ff74184-6636-4da9-b7b9-99ae00dbf4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 18">
+      <UniqueIdentifier>{6dadfad8-8b90-4865-af9e-84219fd68c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 19">
+      <UniqueIdentifier>{af9e7c3d-11b6-42af-b340-57f2598ff571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tema 12-01-2023\Problema 20">
+      <UniqueIdentifier>{dce9e992-d0e0-4b37-b977-bc2720aa46ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="final-backtracking.cpp">
@@ -82,6 +145,66 @@
     </ClInclude>
     <ClInclude Include="problema-mouse-metoda-2.h">
       <Filter>Probleme\Problema Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-1.h">
+      <Filter>Tema 12-01-2023\Problema 1</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-2.h">
+      <Filter>Tema 12-01-2023\Problema 2</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-3.h">
+      <Filter>Tema 12-01-2023\Problema 3</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-4.h">
+      <Filter>Tema 12-01-2023\Problema 4</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-5.h">
+      <Filter>Tema 12-01-2023\Problema 5</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-6.h">
+      <Filter>Tema 12-01-2023\Problema 6</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-7.h">
+      <Filter>Tema 12-01-2023\Problema 7</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-8.h">
+      <Filter>Tema 12-01-2023\Problema 8</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-9.h">
+      <Filter>Tema 12-01-2023\Problema 9</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-10.h">
+      <Filter>Tema 12-01-2023\Problema 10</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-11.h">
+      <Filter>Tema 12-01-2023\Problema 11</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-12.h">
+      <Filter>Tema 12-01-2023\Problema 12</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-13.h">
+      <Filter>Tema 12-01-2023\Problema 13</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-14.h">
+      <Filter>Tema 12-01-2023\Problema 14</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-15.h">
+      <Filter>Tema 12-01-2023\Problema 15</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-16.h">
+      <Filter>Tema 12-01-2023\Problema 16</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-17.h">
+      <Filter>Tema 12-01-2023\Problema 17</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-18.h">
+      <Filter>Tema 12-01-2023\Problema 18</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-19.h">
+      <Filter>Tema 12-01-2023\Problema 19</Filter>
+    </ClInclude>
+    <ClInclude Include="tema-12-01-problema-20.h">
+      <Filter>Tema 12-01-2023\Problema 20</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
