@@ -8,7 +8,7 @@ using namespace std;
 // care sunt supermultiple de k adica numarul si respectiv
 // toate numerele ce se obtin din el prin eliminarea
 // cifrelor sale incepand cu cifra unitatilor sunt multiple
-// de k.
+// de m.
 
 int n, m;
 int s[100];
