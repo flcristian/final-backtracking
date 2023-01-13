@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -130,6 +130,8 @@
     <ClCompile Include="final-backtracking.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="problema-mouse-metoda-2.h" />
+    <ClInclude Include="problema-mouse.h" />
     <ClInclude Include="problema-sesiune.h" />
     <ClInclude Include="problema1.h" />
     <ClInclude Include="problema10.h" />
@@ -139,13 +141,36 @@
     <ClInclude Include="problema4.h" />
     <ClInclude Include="problema5.h" />
     <ClInclude Include="problema8.h" />
+    <ClInclude Include="tema-12-01-problema-1.h" />
+    <ClInclude Include="tema-12-01-problema-10.h" />
+    <ClInclude Include="tema-12-01-problema-11.h" />
+    <ClInclude Include="tema-12-01-problema-12.h" />
+    <ClInclude Include="tema-12-01-problema-13.h" />
+    <ClInclude Include="tema-12-01-problema-14.h" />
+    <ClInclude Include="tema-12-01-problema-15.h" />
+    <ClInclude Include="tema-12-01-problema-16.h" />
+    <ClInclude Include="tema-12-01-problema-17.h" />
+    <ClInclude Include="tema-12-01-problema-18.h" />
+    <ClInclude Include="tema-12-01-problema-19.h" />
+    <ClInclude Include="tema-12-01-problema-2.h" />
+    <ClInclude Include="tema-12-01-problema-20.h" />
+    <ClInclude Include="tema-12-01-problema-3.h" />
+    <ClInclude Include="tema-12-01-problema-4.h" />
+    <ClInclude Include="tema-12-01-problema-5.h" />
+    <ClInclude Include="tema-12-01-problema-6.h" />
+    <ClInclude Include="tema-12-01-problema-7.h" />
+    <ClInclude Include="tema-12-01-problema-8.h" />
+    <ClInclude Include="tema-12-01-problema-9.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="mouse-in.txt" />
+    <Text Include="mouse-out.txt" />
     <Text Include="problema1-out.txt" />
     <Text Include="problema3-out.txt" />
     <Text Include="problema4-out.txt" />
     <Text Include="problema5-out.txt" />
     <Text Include="problema8-out.txt" />
+    <Text Include="tema-12-01-problema-17-numere.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
