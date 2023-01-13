@@ -170,6 +170,7 @@
     <Text Include="problema4-out.txt" />
     <Text Include="problema5-out.txt" />
     <Text Include="problema8-out.txt" />
+    <Text Include="tema-12-01-problema-17-numere.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

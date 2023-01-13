@@ -229,5 +229,8 @@
     <Text Include="mouse-out.txt">
       <Filter>Probleme\Problema Mouse</Filter>
     </Text>
+    <Text Include="tema-12-01-problema-17-numere.txt">
+      <Filter>Tema 12-01-2023\Problema 16</Filter>
+    </Text>
   </ItemGroup>
 </Project>
